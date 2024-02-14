@@ -1,3 +1,8 @@
+/**
+ * This file represents the main page of the information management system.
+ * It includes the header and footer files and displays a menu with options to insert, 
+ * consult, delete, and list information.
+ */
 <!DOCTYPE html>
 <html lang="en">
 
