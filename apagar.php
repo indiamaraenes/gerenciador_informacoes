@@ -9,7 +9,7 @@
 </head>
 
 <body>
-    <?php include 'header.php'; ?>
+    <?php include 'header.php'; ?> 
     <div class="container">
         <h2>Apagar Informação</h2>
         <form action="apagar.php" method="get">
