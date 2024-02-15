@@ -15,7 +15,7 @@
         <form action="inserir_processar.php" method="post">
             <label for="dado">Dado:</label><br>
             <input type="text" id="dado" name="dado" required>
-            <br> 
+            <br>
             <input type="submit" value="Inserir">
         </form>
     </div>

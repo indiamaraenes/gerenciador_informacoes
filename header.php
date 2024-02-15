@@ -1,4 +1,4 @@
-<header class="site-header">
+<header>
     <a href="index.php" class="logo">
         <img src="logo.png" alt="Logo">
     </a>
