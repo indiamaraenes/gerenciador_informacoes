@@ -5,18 +5,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Apagar informação</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="assets/css/style.css">
 </head>
 
 <body>
-    <?php include 'header.php'; ?>
+    <?php include('layout/header.php'); ?>
     <div class="container">
         <h2>Apagar Informação</h2>
+        <p>Insira o ID da informação que deseja apagar:</p>
         <form action="apagar.php" method="get">
             <label for="id">ID:</label><br>
             <input type="text" id="id" name="id"><br>
-            <input type="submit" value="Apagar">
-            <button onclick="window.location.href='index.php'">voltar</button>
+            <button type="submit" name="submit" style="background-color: red" ;>Apagar</button>
+            <a href="index.php">Voltar para o início</a>
         </form>
 
 
@@ -53,7 +54,7 @@
         }
         ?>
     </div>
-    <?php include 'footer.php'; ?>
+    <?php include('layout/footer.php'); ?>
 </body>
 
 </html>

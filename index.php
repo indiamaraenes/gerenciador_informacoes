@@ -5,11 +5,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Menu</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+
+
 </head>
 
 <body>
-    <?php include 'header.php'; ?>
+    <?php include('layout/header.php'); ?>
 
     <main>
         <div class="container">
@@ -23,7 +25,8 @@
         </div>
     </main>
 
-    <?php include 'footer.php'; ?>
+    <?php include('layout/footer.php');
+    ?>
 </body>
 
 </html>
