@@ -1,17 +1,20 @@
 <!DOCTYPE html>
 <html lang="pt_BR">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Consulta</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="assets/css/style.css">
 </head>
+
 <body>
-    <?php include 'header.php'; ?>
+    <?php include('layout/header.php'); ?>
     <div class="container">
         <h2>Consulta de Dados</h2>
+        <p>Insira o ID do dado que deseja consultar</p>
         <form method="GET" action="">
-            <label for="id">ID do Dado:</label>
+            <label for="id">ID:</label>
             <input type="text" name="id" id="id" required>
             <button type="submit" name="submit">Consultar</button>
         </form>
@@ -59,11 +62,13 @@
                 echo "Erro ao executar a consulta: " . $conn->error;
             }
 
+
             // Fechar conexão
             $conn->close();
         }
         ?>
     </div>
-    <?php include 'footer.php'; ?>
+    <?php include('layout/footer.php'); ?>
 </body>
+
 </html>
