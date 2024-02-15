@@ -36,9 +36,9 @@ Para testar a inserção e exclusão de dados no banco de dados:
 
 ## Estrutura do Projeto:
 
-- `assets/`: Contém arquivos CSS e imagens.
+- `assets/`: Contém arquivos CSS e imagens.git 
 - `layout/`: Contém arquivos PHP para o cabeçalho e rodapé.
-- Arquivos PHP individuais para cada funcionalidade específica.
+- Arquivos PHP individuais para cada funcionalidade específica.git 
 - `conexao.php`: Estabelece a conexão com o banco de dados.
 
 ## Conclusao:
